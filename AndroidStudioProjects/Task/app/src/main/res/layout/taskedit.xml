@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.vigneshsm.task.MapsActivity" />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext1"
+        android:text="@string/s1"
+        android:textSize="@dimen/e1"
+        android:ems="7"
+        android:layout_marginTop="@dimen/e2"
+        android:layout_marginLeft="@dimen/e3"
+        android:drawableLeft="@drawable/ic_action_name"/>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edittext2"
+        android:text="@string/s2"
+        android:textSize="@dimen/e1"
+        android:ems="7"
+        android:layout_marginTop="@dimen/e4"
+        android:layout_marginLeft="@dimen/e3"
+        android:drawableLeft="@drawable/ic_action_name"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ok"
+        android:text="@string/s3"
+        android:textSize="@dimen/e1"
+        android:layout_marginTop="@dimen/e5"
+        android:layout_marginLeft="@dimen/e6" />
+</RelativeLayout>

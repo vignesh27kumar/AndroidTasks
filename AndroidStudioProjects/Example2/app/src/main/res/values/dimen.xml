@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="one">22sp</dimen>
+    <dimen name="second">20sp</dimen>
+    <dimen name="thrid">400sp</dimen>
+    <dimen name="fourth">72sp</dimen>
+    <dimen name="fifth">39sp</dimen>
+    <dimen name="sixth">22sp</dimen>
+    <dimen name="seventh">92sp</dimen>
+    <dimen name="eigth">3sp</dimen>
+    <dimen name="ninth">17sp</dimen>
+    <dimen name="tenth">20sp</dimen>
+    <dimen name="eleventh">21sp</dimen>
+    <dimen name="tweleth">70sp</dimen>
+    <dimen name="thirteen">29sp</dimen>
+    <dimen name="fourteen">4sp</dimen>
+    <dimen name="fifteen">12sp</dimen>
+    <dimen name="sixteen">250sp</dimen>
+    <dimen name="seventeen">270sp</dimen>
+    <dimen name="eightteen">200sp</dimen>
+    <dimen name="nineteen">20sp</dimen>
+    <dimen name="twenty">7sp</dimen>
+    <dimen name="twentyone">80sp</dimen>
+    <dimen name="twentytwo">50sp</dimen>
+    <dimen name="twentythree">200sp</dimen>
+    <dimen name="twentyfour">27sp</dimen>
+    <dimen name="twentyfive">88sp</dimen>
+    <dimen name="twentysix">47sp</dimen>
+    <dimen name="twentyseven">90sp</dimen>
+    <dimen name="twentyeight">127sp</dimen>
+    <dimen name="twentynine">80sp</dimen>
+    <dimen name="thirty">10sp</dimen>
+    <dimen name="thirtyone">227sp</dimen>
+
+
+</resources>

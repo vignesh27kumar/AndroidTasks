@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/userdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="UserDetails"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/euname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="22dp"
+            android:text="username"
+            android:textSize="22sp" />
+
+
+        <EditText
+            android:id="@+id/epwde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="39dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="39dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="17dp"
+            android:ems="7"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="22dp"
+            android:text="Password"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/un"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="39dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="39dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="17dp"
+            android:layout_weight="0.32"
+            android:ems="7" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+        <TextView
+            android:id="@+id/cpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="22dp"
+            android:text="CPassword"
+            android:textSize="22sp" />
+
+
+        <EditText
+            android:id="@+id/cepwde"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginEnd="39dp"
+            android:layout_marginLeft="27dp"
+            android:layout_marginRight="39dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="17dp"
+           android:paddingLeft="6dp"
+
+            android:ems="7"
+            android:textSize="18sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="22dp"
+            android:text="Location"
+            android:textSize="22sp"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.61"
+
+            android:spinnerMode="dropdown"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="12dp">
+
+        </Spinner>
+    </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="120dp"
+            android:text="ok"
+            android:layout_marginTop="22dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleview"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp" />
+        </LinearLayout>
+</LinearLayout>

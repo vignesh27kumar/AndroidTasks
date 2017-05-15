@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Dialogbox</string>
+    <string name="AddDsicount"><u>Add Discount</u></string>
+    <string name="percent"> Percent</string>
+    <string name="ForBranch"> For Branch</string>
+    <string name="ForCategores"> For Categores</string>
+    <string name="discount"> Discount</string>
+    <string name="From"> From</string>
+    <string name="Till"> Till</string>
+    <string name="Save"> Save</string>
+
+
+
+</resources>

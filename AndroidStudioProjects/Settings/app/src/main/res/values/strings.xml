@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Settings</string>
+    <string name="AddDsicount"><u>Add Discount</u></string>
+    <string name="percent"> Percent</string>
+    <string name="ForBranch"> For Branch</string>
+    <string name="ForCategores"> For Categores</string>
+    <string name="discount"> Discount</string>
+    <string name="From"> From</string>
+    <string name="Till"> Till</string>
+    <string name="Save"> Save</string>
+
+    <string name="Makeapp"> MakeApp</string>
+    <string name="Manual"> Manual</string>
+    <string name="Automated"> Automated Settings</string>
+    <string name="For"> For Next</string>
+    <string name="Or"> Or</string>
+    <string name="OfferTiming">Offer Timimng</string>
+    <string name="Mins"> Mins</string>
+    <string name="Price">Price Nego:</string>
+    <string name="editprice"> Price</string>
+    <string name="to"> To</string>
+    <string name="auto">Auto</string>
+</resources>

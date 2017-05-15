@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="50dp">
+
+    <TextView
+        android:id="@+id/vtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="Name:"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/vvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/vtext"
+        android:layout_marginLeft="20dp"
+        android:layout_toEndOf="@+id/vtext"
+        android:layout_toRightOf="@+id/vtext"
+        android:text="vignesh"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/vpalce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/vtext"
+        android:layout_alignStart="@+id/vtext"
+        android:layout_below="@+id/vtext"
+        android:layout_marginTop="10dp"
+        android:text="Place:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/vvpalce"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/vpalce"
+        android:layout_alignStart="@id/vvalue"
+        android:layout_alignTop="@+id/vtext"
+        android:layout_below="@id/vpalce"
+        android:layout_marginTop="30dp"
+        android:layout_toRightOf="@+id/vpalce"
+        android:text="coimbatore"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/vpalce"
+        android:layout_alignStart="@id/vpalce"
+        android:layout_below="@id/vpalce"
+        android:layout_marginTop="10dp"
+        android:text="From:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/fromValue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/vvpalce"
+        android:layout_alignStart="@id/vvpalce"
+        android:layout_below="@id/vvpalce"
+        android:layout_marginTop="10dp"
+        android:text="27-04-2017"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/till"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/from"
+        android:layout_below="@id/from"
+        android:layout_marginTop="10dp"
+        android:text="Till:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tillvalue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/till"
+        android:layout_alignBottom="@+id/till"
+        android:layout_alignLeft="@+id/fromValue"
+        android:layout_alignStart="@+id/fromValue"
+        android:text="28-4-2017"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/People"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/till"
+        android:layout_alignStart="@+id/till"
+        android:layout_below="@+id/till"
+        android:layout_marginTop="10dp"
+        android:text="People:"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tillvalue"
+        android:layout_alignStart="@+id/tillvalue"
+        android:layout_below="@+id/tillvalue"
+        android:layout_marginTop="10dp"
+        android:text="10"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_name"
+        android:layout_alignBottom="@+id/fromValue"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/vpalce"
+        android:layout_toLeftOf="@+id/vpalce"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/circle"
+        android:text="3"
+        android:textColor="black"
+        android:gravity="center"
+        android:id="@+id/textView2"
+        android:layout_alignTop="@+id/vvpalce"
+        android:layout_alignLeft="@+id/vvpalce"
+        android:layout_alignStart="@+id/vvpalce"
+        android:layout_marginLeft="106dp"
+        android:layout_marginStart="106dp" />
+
+</RelativeLayout>

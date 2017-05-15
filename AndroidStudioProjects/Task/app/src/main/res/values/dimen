@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+    <resources>
+    <dimen name="e1">27sp</dimen>
+   <dimen name="e2">10sp</dimen>
+    <dimen name="e3">100sp</dimen>
+    <dimen name="e4">60sp</dimen>
+    <dimen name="e5">180sp</dimen>
+    <dimen name="e6">120sp</dimen>
+</resources>

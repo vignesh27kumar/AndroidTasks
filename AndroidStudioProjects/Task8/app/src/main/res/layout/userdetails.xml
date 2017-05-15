@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <TextView
+     android:id="@+id/lu"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="username"
+       android:textSize="18sp"
+       android:layout_marginTop="40dp"
+       android:layout_marginLeft="18dp"/>
+<TextView
+    android:id="@+id/loc"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="location"
+    android:textSize="18sp"
+
+    android:layout_below="@+id/lu"
+   android:layout_alignLeft="@+id/lu"
+    android:layout_alignStart="@+id/lu"
+    android:layout_marginTop="22dp"/>
+   <Button
+       android:id="@+id/ebutton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Edit"
+       android:layout_above="@+id/loc"
+       android:layout_alignLeft="@+id/button"
+       android:layout_alignStart="@+id/button" />
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginRight="12dp"
+       android:text="Delete"
+       android:id="@+id/button"
+       android:layout_alignBaseline="@+id/loc"
+       android:layout_alignBottom="@+id/loc"
+       android:layout_alignParentRight="true"
+       android:layout_alignParentEnd="true"
+       android:layout_marginEnd="12dp" />
+
+
+
+</RelativeLayout>

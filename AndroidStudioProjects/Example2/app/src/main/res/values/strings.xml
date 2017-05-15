@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Example2</string>
+    <string name="title">Welcome to my application</string>
+    <string name="uname">username</string>
+    <string name="pwd">password</string>
+    <string name="v">signin</string>
+    <string name="Txtu">Username</string>
+    <string name="Txtp">password</string>
+    <string name="txtv">signin</string>
+    <string name="txt">Enter the Text</string>
+    <string name="extext">username</string>
+    <string name="textinputlayt">Enter the text</string>
+    <string name="textinput">Enter the password</string>
+    <string name="cardname">name</string>
+    <string name="cardage">age</string>
+</resources>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/userdetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="UserDetails"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/Uname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UserName"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/eun"
+        android:layout_alignBottom="@+id/eun"
+        android:layout_toLeftOf="@+id/userdetails"
+        android:layout_toStartOf="@+id/userdetails"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp" />
+
+    <EditText
+        android:id="@+id/eun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="7"
+        android:text="UN"
+        android:textSize="18sp"
+        android:layout_below="@+id/userdetails"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="39dp"
+        android:layout_marginEnd="39dp" />
+
+    <TextView
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="18sp"
+        android:layout_alignBaseline="@+id/epwd"
+        android:layout_alignBottom="@+id/epwd"
+        android:layout_alignLeft="@+id/Uname"
+        android:layout_alignStart="@+id/Uname" />
+
+    <EditText
+        android:id="@+id/epwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pwd"
+        android:textSize="18sp"
+        android:ems="7"
+        android:layout_below="@+id/eun"
+        android:layout_alignLeft="@+id/eun"
+        android:layout_alignStart="@+id/eun"
+        android:layout_marginTop="12dp" />
+    <TextView
+        android:id="@+id/cfpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ConformPassword"
+        android:textSize="18sp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/epwd"
+        android:layout_toLeftOf="@+id/epwd"
+        android:layout_toStartOf="@+id/epwd"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp" />
+    <EditText
+        android:id="@+id/ed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cpwd"
+        android:textSize="18sp"
+        android:ems="7"
+        android:layout_below="@+id/epwd"
+        android:layout_toRightOf="@+id/cfpwd"
+        android:layout_toEndOf="@+id/cfpwd" />
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:textSize="18sp"
+        android:layout_below="@+id/ed"
+        android:layout_alignLeft="@+id/password"
+        android:layout_alignStart="@+id/password"
+        android:layout_marginTop="32dp"
+        android:id="@+id/textView" />
+    <Spinner
+        android:id="@+id/drd"
+        android:layout_width="150dp"
+        android:layout_height="20dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:layout_alignTop="@+id/textView"
+        android:layout_alignLeft="@+id/ed"
+        android:layout_alignStart="@+id/ed">
+
+    </Spinner>
+    <Button
+        android:id="@+id/Create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create"
+        android:layout_below="@+id/textView"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="22dp"/>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@+id/Create"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/textView2" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleview"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textView2"
+        android:layout_margin="50dp"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>

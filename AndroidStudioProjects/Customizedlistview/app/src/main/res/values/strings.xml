@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Customized list view</string>
+    <string-array name="Name">
+        <item>Name1</item>
+        <item>Name2</item>
+        <item>Name3</item>
+        <item>Name4</item>
+        <item>Name5</item>
+        <item>Name6</item>
+        <item>Name7</item>
+        <item>Name8</item>
+
+    </string-array>
+    <string-array name="Age">
+        <item>Age1</item>
+        <item>Age2</item>
+        <item>Age3</item>
+        <item>Age4</item>
+        <item>Age5</item>
+        <item>Age6</item>
+        <item>Age7</item>
+        <item>Age8</item>
+
+
+    </string-array>
+</resources>

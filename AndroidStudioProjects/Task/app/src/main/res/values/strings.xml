@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Task</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="s1">Enter city</string>
+    <string name="s2">Enter the location</string>
+    <string name="s3">ok</string>
+</resources>
